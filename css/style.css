@@ -1,0 +1,148 @@
+
+
+h1{font-family:Garamond; color: #669999; font-size:50px;
+          text-align: center;}  /* All the Header1 is the title of all the htmls and in the center of the page. 
+          Font is Garamond and the size is 50px*/
+
+.wu{width: 100px;
+    height: 50px; border-radius: 20px;} /* to hold Wu logo image */
+
+
+#top{border-radius: 20px; float:right;} /* for logo and in left image */
+ 
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;}   /* the container to hold three pictures in Day2.html 
+  and justify in the center */
+  
+.flexitem1 { 
+  width: 50px;
+}
+
+/* .menu is the menu bar for the htmls and it located on the top */
+
+.menu {
+    list-style-type: none;
+    margin: 50;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+ul.menu li {
+    float: left;
+}
+
+
+.menu a:link, .menu a:visited {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #14CEDB; /* Origianl color before click */
+    text-align: center;
+    padding:6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #1499DB; 
+}
+
+.menu a:hover, .menu a:active {
+    background-color: #1499DB;  /* when the mouse moves to the menu, and the color will changed */
+}
+
+
+h4 {font-size: 25px; color:#f4f142 ;}
+
+/*https://www.google.com/#q=color+picker*/
+
+h3{font-size: 40px; color: #f4f142; text-align: center }
+
+/* The following div. is the container to hold a image and each images are center and description */
+
+div.gallery {
+    display:block;
+    margin:auto;
+    border: 1px solid #ccc;
+    float: center;
+    width: 400px;
+    
+}
+
+
+div.gallery:hover {
+    border: 1px solid #777;  
+}
+
+div.gallery img { 
+    
+    width: 100%;
+    height: auto; 
+    
+}
+
+div.desc {
+    padding: 15px; font-size: 30px;
+    text-align: center;
+}
+
+
+
+img{width: 100%; height: 100%; margin: auto;}
+
+ol{font-size: 20px; font-family: sans-serif;}
+
+body{background-color: #E9967A} /* for all the background in html DarkSalmon 
+https://www.w3schools.com/cssref/css_colors.asp */
+
+p{font-size:30px; font-family: 'Dosis', sans-serif;}
+
+
+ul.link123{font-size: 25px; } 
+
+
+/*ul
+
+@media only screen and (max-width: 1070px) {
+
+section { width: 80%;
+  
+}
+  header {
+    background-image:  url("http://wednesday.startcomputing.org/manatee3.jpg");
+    background-size: cover;
+  }
+}  
+
+
+.daypic{width: 250px; display: block; margin: 0 auto;}
+
+li {
+    float: left;
+}
+p.intext a {
+    display: inline-block;
+    background-color: purle;
+
+/* Change the link color to #111 (black) on hover 
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+body {
+    background: #1affd1 url("https://static.standard.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2016/12/18/08/foglondon1812jpg.jpg")
+    no-repeat left top;
+    background-size: 100%;
+}
+
+    
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 
+    filter: grayscale(100%);
+} */
+
+
+ /*tr{border: 5px solid red;}
+   background-image:url('http://wednesday.startcomputing.org/cat3.jpg');*/
